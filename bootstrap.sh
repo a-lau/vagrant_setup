@@ -28,3 +28,8 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 //cd semantic
 //gulp build
 //create-react-app dinner-picker
+
+// *** Done after project creation ***
+// npm install express --save
+// npm install body-parser --save
+// npm install cookie-parser --save
