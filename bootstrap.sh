@@ -22,6 +22,9 @@ sudo swapon --show
 sudo cp /etc/fstab /etc/fstab.bak
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 
+//VIM configurables
+git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+
 // *** Optional *** Current repo comes with semantic
 //sudo npm install -g gulp
 //npm install semantic-ui --save
